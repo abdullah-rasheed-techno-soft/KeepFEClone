@@ -1,0 +1,44 @@
+@font-face {
+  font-family: ProductSans;
+  src: url(/assets/Product\ Sans\ Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-container {
+  margin-top: 5px;
+  display: flex;
+  height: 62px;
+  background-color: #fff;
+  border-bottom: 1px solid #dadce0;
+}
+
+.front {
+  background-color: #fff;
+  display: flex;
+  width: 150px;
+
+  align-items: center;
+}
+.searchcontainer {
+  margin-left: 250px;
+  border-radius: 2px;
+  display: flex;
+  background-color: #f1f3f4;
+  width: 700px;
+  align-items: center;
+}
+#menu {
+  padding-left: 15px;
+  flex-grow: 2;
+}
+#logo {
+  flex-grow: 1;
+}
+.front span {
+  font-family: ProductSans;
+  font-size: 22px;
+  color: #5f6368;
+}
