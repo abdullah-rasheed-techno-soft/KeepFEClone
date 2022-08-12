@@ -6,10 +6,12 @@
   margin: 0;
   padding: 0;
 }
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
 
 .nav-container {
   margin-top: 5px;
   display: flex;
+  width: 100vw;
   height: 62px;
   background-color: #fff;
   border-bottom: 1px solid #dadce0;
@@ -23,22 +25,211 @@
   align-items: center;
 }
 .searchcontainer {
-  margin-left: 250px;
-  border-radius: 2px;
+  margin-top: 5px;
+  margin-left: 150px;
+  border-radius: 10px;
   display: flex;
   background-color: #f1f3f4;
   width: 700px;
+  height: 50px;
   align-items: center;
+}
+.taking-note {
+  margin-top: 35px;
+  margin-left: 250px;
+
+  border-radius: 8px;
+  display: flex;
+  border: 1.5px #e0e0e0 solid;
+  width: 600px;
+  height: 45px;
+  align-items: center;
+  box-shadow: 5px 15px 25px 2px #c2c3c3;
+}
+.taking-note img {
+  opacity: 60%;
+  width: 20px;
+  height: 20px;
+}
+#newlist {
+  margin-left: 40px;
+  margin-right: 30px;
+}
+#brush {
+  margin-right: 30px;
+}
+
+#newlist img:hover,
+#brush img:hover,
+#image img:hover {
+  opacity: 100%;
+}
+
+.options {
+  margin-top: 5px;
+  margin-left: 220px;
+  border-radius: 10px;
+  display: flex;
+
+  width: 400px;
+  height: 50px;
+  align-items: center;
+}
+.options a img {
+  opacity: 60%;
+}
+.options a img:hover {
+  opacity: 100%;
+}
+#search {
+  margin-left: 10px;
+
+  border: none;
+}
+#search img {
+  height: 20px;
+  width: 20px;
+}
+#refresh img {
+  height: 18px;
+  width: 18px;
+}
+#setting img {
+  height: 22px;
+  width: 22px;
+}
+#list img {
+  height: 24px;
+  width: 24px;
+}
+#app img {
+  height: 20px;
+  width: 20px;
+}
+#avatar img {
+  height: 32px;
+  width: 32px;
+}
+input:focus {
+  outline: none;
+}
+#search:hover {
+  background-color: red;
+}
+#refresh,
+#list {
+  flex-grow: 0.1;
+}
+#setting {
+  flex-grow: 0.5;
+}
+#app {
+  flex: 0.2;
+}
+#search_input {
+  margin-left: 15px;
+  font-size: 16px;
+  width: 40rem;
+  height: 2rem;
+  border: none;
+  background-color: #f1f3f4;
+}
+#note_input {
+  margin-left: 15px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  width: 25rem;
+  height: 1.5rem;
+  border: none;
 }
 #menu {
   padding-left: 15px;
   flex-grow: 2;
+  color: black;
+  opacity: 60%;
+}
+#menu:hover {
+  opacity: 100%;
 }
 #logo {
   flex-grow: 1;
+}
+#logo img {
+  height: 38px;
+  width: 38px;
 }
 .front span {
   font-family: ProductSans;
   font-size: 22px;
   color: #5f6368;
+}
+.below-container {
+  width: 100vw;
+  height: 91.2vh;
+  display: flex;
+}
+.side-container {
+  margin: 10px 0px 0px;
+  width: 20vw;
+  height: 80vh;
+
+  display: flex;
+
+  flex-direction: column;
+}
+.side-container .sub {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  opacity: 80%;
+  font-size: 14px;
+  color: #202124;
+  display: flex;
+  padding: 15px;
+
+  align-items: center;
+}
+
+.sub:hover {
+  background-color: #f1f3f4;
+
+  border-radius: 0px 25px 25px 0px;
+}
+
+#notes img {
+  width: 22px;
+  height: 22px;
+}
+#reminder img {
+  width: 20px;
+  height: 20px;
+}
+#edit img {
+  width: 20px;
+  height: 20px;
+}
+#archive img {
+  width: 20px;
+  height: 20px;
+}
+#trash img {
+  width: 20px;
+  height: 20px;
+}
+.sub p {
+  margin-left: 40px;
+}
+.central-container {
+  width: 80vw;
+}
+.note-container {
+  display: flex;
+  width: 80vw;
+  height: 20vh;
+}
+.card-container {
+  background-color: green;
+  display: flex;
+  width: 80vw;
+  height: 200px;
 }

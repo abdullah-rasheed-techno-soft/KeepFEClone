@@ -19,27 +19,97 @@
   <body>
     <div class="nav-container">
       <div class="front">
-        <a id="menu" href="#"
-          ><i class="fa-solid fa-bars" style="color: black"></i
-        ></a>
-        <a id="logo" href="#">
-          <img src="/img/keep.png" height="38" width="38" alt="keep logo"
+        <a id="menu" href="#"><i class="fa-solid fa-bars"></i></a>
+        <a id="logo" href="#" title="Keep">
+          <img src="/img/keep.png" alt="keep logo"
         /></a>
-        <span id="product-san">Keep</span>
+        <span id="product-san" title="Keep">Keep</span>
       </div>
       <div class="searchcontainer">
-        <a id="search" href="#">
-          <img src="/img/search.png" width="25" height="25" alt="search" />
+        <a id="search" href="#" title="Search">
+          <img src="/img/search.png" alt="search" />
         </a>
+        <input
+          type="text"
+          id="search_input"
+          name="search_input"
+          placeholder="Search"
+        />
+      </div>
+      <div class="options">
+        <a id="refresh" href="#"
+          ><img src="/img/refresh.png" alt="refresh"
+        /></a>
+        <a id="list" href="#"><img src="/img/equal.png" alt="list" /></a>
+        <a id="setting" href="#"> <img src="/img/gear.png" alt="setting" /></a>
+        <a id="app" href="#"><img src="/img/application.png" alt="app" /></a>
+        <a id="avatar" href="#"
+          ><img
+            src="/img/avatar.png"
+            alt="avatar"
+            width="32"
+            height="32"
+            style="opacity: 100%; border-radius: 50%"
+        /></a>
       </div>
     </div>
-    <div class="side-container">
-      <p>1</p>
-      <p>1</p>
+    <div class="below-container">
+      <div class="side-container">
+        <div
+          class="sub"
+          id="notes"
+          style="background-color: #feefc3; border-radius: 0px 25px 25px 0px"
+        >
+          <img src="/img/bulb.png" alt="notes" />
+          <p>Notes</p>
+        </div>
+        <div class="sub" id="reminder">
+          <img src="/img/bell.png" alt="Reminders" />
+          <p>Reminders</p>
+        </div>
+        <div class="sub" id="edit">
+          <img src="/img/pencil.png" alt="edit" />
+          <p>Edit labels</p>
+        </div>
+        <div class="sub" id="archive">
+          <img src="/img/archive.png" alt="Archive" />
+          <p>Archive</p>
+        </div>
+        <div class="sub" id="trash">
+          <img src="/img/trash.png" alt="trash" />
+          <p>Trash</p>
+        </div>
+      </div>
+      <div class="central-container">
+        <div class="note-container">
+          <div class="taking-note">
+            <input
+              type="text"
+              id="note_input"
+              name="note_input"
+              placeholder="Take a note..."
+            />
+            <div id="newlist" title="New List">
+              <img src="/img/newlist.png" alt="" />
+            </div>
+            <div id="brush" title="New note with drawing">
+              <img src="/img/brush.png" alt="" />
+            </div>
 
-      <p>1</p>
-      <p>1</p>
-      <p>1</p>
+            <div id="image" title="New note with image">
+              <img src="/img/image.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="card-container">
+          <div class="firstcard">yet anothe rgoir';ep<br />dfi<br />dfjkdl</div>
+          <div class="secondcard">
+            another notes goue shere<br />but ll;aei qeilaijg boxm enca<br />e
+            dheb<br />dfhdfhh;dk djkfdafi n dfd<br />kmf;kl
+          </div>
+          <div class="thirdcard">something goes here</div>
+        </div>
+      </div>
     </div>
   </body>
   <script src="script.js"></script>
