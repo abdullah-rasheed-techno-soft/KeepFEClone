@@ -1,4 +1,5 @@
 @font-face {
+  /* Font*/
   font-family: ProductSans;
   src: url(/assets/Product\ Sans\ Regular.ttf);
 }
@@ -7,7 +8,7 @@
   padding: 0;
 }
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
-
+/* NavBar container*/
 .nav-container {
   margin-top: 5px;
   display: flex;
@@ -16,7 +17,7 @@
   background-color: #fff;
   border-bottom: 1px solid #dadce0;
 }
-
+/* Menu bar Logo and Keep Text*/
 .front {
   background-color: #fff;
   display: flex;
@@ -24,6 +25,7 @@
 
   align-items: center;
 }
+/* Search Bar*/
 .searchcontainer {
   margin-top: 5px;
   margin-left: 150px;
@@ -34,6 +36,16 @@
   height: 50px;
   align-items: center;
 }
+/* Container for note*/
+.central-container {
+  width: 80vw;
+}
+.note-container {
+  display: flex;
+  width: 80vw;
+  height: 20vh;
+}
+/* Take a note input */
 .taking-note {
   margin-top: 35px;
   margin-left: 250px;
@@ -44,27 +56,30 @@
   width: 600px;
   height: 45px;
   align-items: center;
-  box-shadow: 5px 15px 25px 2px #c2c3c3;
+  box-shadow: 4px 1px 7px #c2c3c3;
 }
+/* Take a note input 3 logos */
 .taking-note img {
   opacity: 60%;
   width: 20px;
   height: 20px;
 }
+/* One of logos of take a note input*/
 #newlist {
   margin-left: 40px;
   margin-right: 30px;
 }
+/* One of logos of take a note input*/
 #brush {
   margin-right: 30px;
 }
-
+/*  logos of take a note input*/
 #newlist img:hover,
 #brush img:hover,
 #image img:hover {
   opacity: 100%;
 }
-
+/* Navbar Options*/
 .options {
   margin-top: 5px;
   margin-left: 220px;
@@ -164,6 +179,7 @@ input:focus {
   font-size: 22px;
   color: #5f6368;
 }
+/* */
 .below-container {
   width: 100vw;
   height: 91.2vh;
@@ -219,17 +235,31 @@ input:focus {
 .sub p {
   margin-left: 40px;
 }
-.central-container {
-  width: 80vw;
-}
-.note-container {
-  display: flex;
-  width: 80vw;
-  height: 20vh;
-}
+
+/* Last 3 cards*/
 .card-container {
-  background-color: green;
   display: flex;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
   width: 80vw;
   height: 200px;
+}
+.firstcard,
+.secondcard,
+.thirdcard {
+  margin: 0px 10px 10px 10px;
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  width: 180px;
+}
+.firstcard {
+  height: 100px;
+}
+.secondcard {
+  font-size: 14px;
+  height: 130px;
+}
+.thirdcard {
+  height: 75px;
 }
